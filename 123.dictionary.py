@@ -23,8 +23,6 @@ def translate(word):
     else:
         print("pugger your paw steps on wrong keys")
 
-
-
 word = input("Enter the word you want to search")
 output = translate(word)
 if type(output) == list:
@@ -32,6 +30,9 @@ if type(output) == list:
         print(item)
 else:
     print(output) 
+     
+         
+        
     
-
     
+  
